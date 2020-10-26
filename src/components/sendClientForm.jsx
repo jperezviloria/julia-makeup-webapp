@@ -60,16 +60,20 @@ export default class SendClientForm extends React.Component {
                     <input 
                     type="text"
                     name="nameClient"
-                    onChange={this.onChangenameClient}/>
+                    onChange={this.onChangenameClient}
+                    placeholder="name"/>
                     <input 
                     type="number"
                     name="phoneNumberClient"
-                    onChange={this.onChangephoneNumberClient}/>
+                    onChange={this.onChangephoneNumberClient}
+                    placeholder="phone"/>
                     <input 
                     type="number"
                     name="dniClient"
-                    onChange={this.onChangedniClient}/>
+                    onChange={this.onChangedniClient}
+                    placeholder="dni"/>
                     <input 
+                    placeholder="date"
                     type="text"
                     name="dateMakeUpClient"
                     onChange={this.onChangedateMakeUpClient}/>
